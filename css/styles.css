@@ -1,7 +1,13 @@
 /* manual padding on the top to accomodate sticky top navbar */
-#about, #services, #contact{
+#about, #certifications, #contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#myCarousel{
     padding-top: 100px;
 }
+
 
 /* center carousel captions in image vertically and horizontally */
 .carousel-caption{
@@ -17,4 +23,5 @@
     background-color: rgba(20 , 20, 20, 0.9);
 
     border-radius: 20px;
+
 }
