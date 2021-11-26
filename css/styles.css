@@ -8,6 +8,11 @@
     padding-top: 100px;
 }
 
+#myCarousel img{
+    height: auto;
+    width: auto;
+}
+
 
 /* center carousel captions in image vertically and horizontally */
 .carousel-caption{
@@ -24,4 +29,11 @@
 
     border-radius: 20px;
 
+}
+
+/* this is a little hacky but I'm just trying to get the carousel to sit right on mobile */
+
+@media screen and (max-width: 768px) {
+
+    
 }
