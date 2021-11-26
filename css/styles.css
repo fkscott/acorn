@@ -5,7 +5,7 @@
 }
 
 #myCarousel{
-    padding-top: 100px;
+    padding-top: 32px;
 }
 
 #myCarousel img{
@@ -14,7 +14,7 @@
 }
 
 
-/* center carousel captions in image vertically and horizontally */
+/* center header carousel captions in image vertically and horizontally */
 .carousel-caption{
     top: 50%;
     transform: translateY(-50%);
@@ -31,9 +31,4 @@
 
 }
 
-/* this is a little hacky but I'm just trying to get the carousel to sit right on mobile */
-
-@media screen and (max-width: 768px) {
-
-    
-}
+  
