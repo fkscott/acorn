@@ -20,3 +20,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 });
+
+
+//Owl Carousel JS here
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
