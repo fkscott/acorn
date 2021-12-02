@@ -25,5 +25,20 @@ window.addEventListener('DOMContentLoaded', event => {
 //Owl Carousel JS here
 
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay:true,
+        margin: 10,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
   });
