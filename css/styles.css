@@ -4,15 +4,34 @@
     padding-bottom: 100px;
 }
 
-#myCarousel{
+#headerCarousel{
     padding-top: 32px;
 }
 
-#myCarousel img{
+#headerCarousel img{
     height: auto;
     width: auto;
+    object-fit: center;
 }
 
+/* custom colors for acorn */
+.bg-light-brown{
+    background-color: #FAF5F0;
+}
+
+.bg-dark-brown{
+    background-color: #EEE0D1;
+}
+
+.text-brown{
+    color: #412A15;
+}
+
+.button-brown{
+    color: #FFFFFF;
+    background-color: #C3A175;
+    outline: none;
+}
 
 /* center header carousel captions in image vertically and horizontally */
 .carousel-caption{
@@ -25,7 +44,7 @@
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
 
-    background-color: rgba(20 , 20, 20, 0.9);
+    background-color: rgba(65 , 42, 21, 0.9);
 
     border-radius: 20px;
 
