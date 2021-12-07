@@ -1,5 +1,5 @@
 /* manual padding on the top to accomodate sticky top navbar */
-#about, #certifications, #contact{
+#about, #certifications, #contact, #NAICS{
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -44,7 +44,7 @@
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
 
-    background-color: rgba(65 , 42, 21, 0.9);
+    background-color: rgba(20, 20, 20, 0.9);
 
     border-radius: 20px;
 
