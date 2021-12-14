@@ -29,6 +29,8 @@ $(document).ready(function(){
         loop: true,
         autoplay:true,
         margin: 10,
+        nav:true,
+        dots:false,
         responsive: {
             0: {
                 items: 1
@@ -39,6 +41,8 @@ $(document).ready(function(){
             1000: {
                 items: 3
             }
-        }
+        },
+        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+
     });
   });
