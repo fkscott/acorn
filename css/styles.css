@@ -19,10 +19,6 @@
     padding-top: 3rem;
 }
 
-#acorn_logo{
-    width: 100%;
-    height: 50px;
-}
 /* custom colors for acorn */
 .bg-light-brown{
     background-color: #FAF5F0;
@@ -95,6 +91,12 @@ h1,h2,h3,h4,h5,h6{
 
 #mainNav{
     font-family: 'spartan', sans-serif;
+}
+
+
+#acorn_logo{
+    width: 261px;
+    height: 50px;
 }
 
 
