@@ -42,7 +42,7 @@ $(document).ready(function(){
                 items: 3
             }
         },
-        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+        navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
 
     });
   });

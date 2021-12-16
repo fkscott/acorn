@@ -47,6 +47,8 @@
     text-decoration: inherit;
   }
 
+
+
 /* center header carousel captions in image vertically and horizontally */
 .carousel-caption{
     top: 50%;
@@ -64,11 +66,27 @@
 
 }
 
+/* responsive centering on carousel images */
 .owl-carousel .owl-stage {
     display: flex;
     align-items: center;
     text-align: center;
 }
+
+/* buttons on side of certs */
+.owl-prev, .owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    border:0px solid black;
+}
+.owl-prev { left: -20px; }
+.owl-next { right: -20px; }
+.owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;}
+
 
 /* custom font */
 h1,h2,h3,h4,h5,h6{
